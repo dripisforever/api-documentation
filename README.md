@@ -4,7 +4,7 @@ Views API
 Making a request
 ----------------
 
-All URLs start with **`https://views-api.herokuapp.com/api/`**. URLs are HTTPS only. The path is prefixed with the account ID, but no `/api/v1` API prefix. Also, note the different domain!
+All URLs start with **`https://api.views.ly/v1/`**. URLs are HTTPS only. The path is prefixed with the account ID, but no `/api/v1` API prefix. Also, note the different domain!
 
 ``` shell
 curl -H "Authorization: Token $ACCESS_TOKEN" -H 'User-Agent: MyApp (yourname@example.com)' https://3.basecampapi.com/999999999/projects.json
