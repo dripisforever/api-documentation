@@ -17,7 +17,7 @@ curl -H "Authorization: Token $ACCESS_TOKEN" \
   -H 'Content-Type: application/json' \
   -H 'User-Agent: MyApp (yourname@example.com)' \
   -d '{ "name": "My new project!" }' \
-  https://views-api.herokuapp.com/api/users/search?q=salam
+  https://api.views.ly/v1/users/search?q=salam
 ```
 
 Throughout the Basecamp 3 API docs, we include "Copy as cURL" examples. To try the examples in your shell, copy your OAuth 2.0 access token into your clipboard and run:
